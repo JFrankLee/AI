@@ -9,6 +9,7 @@
 这个任务可以看为回归问题，也可以堪为分割问题。鉴于现阶段已有众多成熟的分割模型，我们选用了后者。主要网络的构造使用了飞桨PaddlePaddle开发的端到端图像分割开发套件[PaddleSeg](https://github.com/PaddlePaddle/PaddleSeg)，该套件集成了高精度和轻量级等不同方向的大量高质量分割模型。
 
 ## 二、模型选择
+
 <img width="401" alt="微信图片_20220524163424" src="https://user-images.githubusercontent.com/60511092/170070265-47328465-6cc3-4dba-9cf6-a32b972e8ec2.png">
 
 
@@ -26,10 +27,13 @@ PaddleSeg所提供的模型性能如下，我们选取了mIoU最高的SegFormer_
 
 ## 三、最终结果
 在测试时我们选取了80%的数据作为训练集，选定模型之后，我们又将全部数据集喂入模型开始训练，但这次的A榜结果却不如人意，我们对10000iter 12000iter 14000iter 16000iter 18000iter都提交测试，mIoU都没有超过0.97。猜测可能是训练集和A榜测试集数据分布还是有较大的差异，该训练模型过拟合了。最终模型效果图如下所示：
+
 ![](https://ai-studio-static-online.cdn.bcebos.com/7bcec947d5fa442fa7772752769b530dfb1491f706b548fbad1102b06ec65cff)
+
 ![](https://ai-studio-static-online.cdn.bcebos.com/8c26ea0dc85a4fd5b7fb1dae327a87f3eee49084dd934b4f9b5cc6b87cc6e522)
 
 B榜提交结果为：
+
 ![](https://ai-studio-static-online.cdn.bcebos.com/19ad59df865a4c3ab30a58097dbff39dcd0226981e4e404a9f301f704c01c088)
 
 
