@@ -41,6 +41,10 @@ B榜提交结果为：
 
 ## 四、代码复现
 
+预训练模型通过百度云下载
+链接：https://pan.baidu.com/s/1RCJk4-i1F1Akhh8OtK72ow 
+提取码：cu5u
+
 运行predict.py 第一个参数为输入图像路径 第二个参数为输出图像路径
 
 ```python
