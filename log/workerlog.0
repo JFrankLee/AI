@@ -1,0 +1,217 @@
+2022-05-14 23:14:47 [INFO]	
+------------Environment Information-------------
+platform: Linux-5.11.0-25-generic-x86_64-with-glibc2.10
+Python: 3.8.5 (default, Sep  4 2020, 07:30:14) [GCC 7.3.0]
+Paddle compiled with cuda: True
+NVCC: Build cuda_11.1.TC455_06.29190527_0
+cudnn: 8.1
+GPUs used: 1
+CUDA_VISIBLE_DEVICES: 3
+GPU: ['GPU 0: NVIDIA GeForce', 'GPU 1: NVIDIA GeForce', 'GPU 2: NVIDIA GeForce', 'GPU 3: NVIDIA GeForce']
+GCC: gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+PaddleSeg: 2.5.0
+PaddlePaddle: 2.2.1
+OpenCV: 4.5.4
+------------------------------------------------
+Traceback (most recent call last):
+  File "train.py", line 230, in <module>
+    main(args)
+  File "train.py", line 165, in main
+    raise RuntimeError('No configuration file specified.')
+RuntimeError: No configuration file specified.
+2022-05-14 23:16:13 [INFO]	
+------------Environment Information-------------
+platform: Linux-5.11.0-25-generic-x86_64-with-glibc2.10
+Python: 3.8.5 (default, Sep  4 2020, 07:30:14) [GCC 7.3.0]
+Paddle compiled with cuda: True
+NVCC: Build cuda_11.1.TC455_06.29190527_0
+cudnn: 8.1
+GPUs used: 1
+CUDA_VISIBLE_DEVICES: 3
+GPU: ['GPU 0: NVIDIA GeForce', 'GPU 1: NVIDIA GeForce', 'GPU 2: NVIDIA GeForce', 'GPU 3: NVIDIA GeForce']
+GCC: gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+PaddleSeg: 2.5.0
+PaddlePaddle: 2.2.1
+OpenCV: 4.5.4
+------------------------------------------------
+Traceback (most recent call last):
+  File "train.py", line 230, in <module>
+    main(args)
+  File "train.py", line 165, in main
+    raise RuntimeError('No configuration file specified.')
+RuntimeError: No configuration file specified.
+2022-05-14 23:17:08 [INFO]	
+------------Environment Information-------------
+platform: Linux-5.11.0-25-generic-x86_64-with-glibc2.10
+Python: 3.8.5 (default, Sep  4 2020, 07:30:14) [GCC 7.3.0]
+Paddle compiled with cuda: True
+NVCC: Build cuda_11.1.TC455_06.29190527_0
+cudnn: 8.1
+GPUs used: 1
+CUDA_VISIBLE_DEVICES: 3
+GPU: ['GPU 0: NVIDIA GeForce', 'GPU 1: NVIDIA GeForce', 'GPU 2: NVIDIA GeForce', 'GPU 3: NVIDIA GeForce']
+GCC: gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+PaddleSeg: 2.5.0
+PaddlePaddle: 2.2.1
+OpenCV: 4.5.4
+------------------------------------------------
+Traceback (most recent call last):
+  File "train.py", line 230, in <module>
+    main(args)
+  File "train.py", line 165, in main
+    raise RuntimeError('No configuration file specified.')
+RuntimeError: No configuration file specified.
+2022-05-14 23:18:07 [INFO]	
+------------Environment Information-------------
+platform: Linux-5.11.0-25-generic-x86_64-with-glibc2.10
+Python: 3.8.5 (default, Sep  4 2020, 07:30:14) [GCC 7.3.0]
+Paddle compiled with cuda: True
+NVCC: Build cuda_11.1.TC455_06.29190527_0
+cudnn: 8.1
+GPUs used: 1
+CUDA_VISIBLE_DEVICES: 3
+GPU: ['GPU 0: NVIDIA GeForce', 'GPU 1: NVIDIA GeForce', 'GPU 2: NVIDIA GeForce', 'GPU 3: NVIDIA GeForce']
+GCC: gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+PaddleSeg: 2.5.0
+PaddlePaddle: 2.2.1
+OpenCV: 4.5.4
+------------------------------------------------
+Traceback (most recent call last):
+  File "train.py", line 230, in <module>
+    main(args)
+  File "train.py", line 184, in main
+    train_dataset = cfg.train_dataset
+  File "/media/noerrors/2ebff7c9-6843-41c4-9307-63072b7eab51/lqp/baidu_competition/PaddleSeg-release-2.5/paddleseg/cvlibs/config.py", line 364, in train_dataset
+    return self._load_object(_train_dataset)
+  File "/media/noerrors/2ebff7c9-6843-41c4-9307-63072b7eab51/lqp/baidu_competition/PaddleSeg-release-2.5/paddleseg/cvlibs/config.py", line 405, in _load_object
+    return component(**params)
+  File "/media/noerrors/2ebff7c9-6843-41c4-9307-63072b7eab51/lqp/baidu_competition/PaddleSeg-release-2.5/paddleseg/datasets/dataset.py", line 92, in __init__
+    raise FileNotFoundError('there is not `dataset_root`: {}.'.format(
+FileNotFoundError: there is not `dataset_root`: data/camvid.
+2022-05-14 23:18:46 [INFO]	
+------------Environment Information-------------
+platform: Linux-5.11.0-25-generic-x86_64-with-glibc2.10
+Python: 3.8.5 (default, Sep  4 2020, 07:30:14) [GCC 7.3.0]
+Paddle compiled with cuda: True
+NVCC: Build cuda_11.1.TC455_06.29190527_0
+cudnn: 8.1
+GPUs used: 1
+CUDA_VISIBLE_DEVICES: 3
+GPU: ['GPU 0: NVIDIA GeForce', 'GPU 1: NVIDIA GeForce', 'GPU 2: NVIDIA GeForce', 'GPU 3: NVIDIA GeForce']
+GCC: gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0
+PaddleSeg: 2.5.0
+PaddlePaddle: 2.2.1
+OpenCV: 4.5.4
+------------------------------------------------
+2022-05-14 23:18:46 [INFO]	
+---------------Config Information---------------
+batch_size: 6
+iters: 10000
+loss:
+  coef:
+  - 1
+  - 1
+  - 1
+  types:
+  - ignore_index: 255
+    min_kept: 250000
+    type: OhemCrossEntropyLoss
+  - ignore_index: 255
+    min_kept: 250000
+    type: OhemCrossEntropyLoss
+  - ignore_index: 255
+    min_kept: 250000
+    type: OhemCrossEntropyLoss
+lr_scheduler:
+  end_lr: 0
+  learning_rate: 0.01
+  power: 0.9
+  type: PolynomialDecay
+  warmup_iters: 200
+  warmup_start_lr: 1.0e-05
+model:
+  arm_out_chs:
+  - 32
+  - 64
+  - 128
+  backbone:
+    pretrained: https://bj.bcebos.com/paddleseg/dygraph/PP_STDCNet1.tar.gz
+    type: STDC1
+  seg_head_inter_chs:
+  - 32
+  - 64
+  - 64
+  type: PPLiteSeg
+optimizer:
+  momentum: 0.9
+  type: sgd
+  weight_decay: 0.0005
+train_dataset:
+  dataset_root: data/baidu
+  mode: train
+  num_classes: 2
+  train_path: data/baidu/train.txt
+  transforms:
+  - max_scale_factor: 2.5
+    min_scale_factor: 0.5
+    scale_step_size: 0.25
+    type: ResizeStepScaling
+  - crop_size:
+    - 512
+    - 512
+    type: RandomPaddingCrop
+  - type: RandomHorizontalFlip
+  - brightness_range: 0.5
+    contrast_range: 0.5
+    saturation_range: 0.5
+    type: RandomDistort
+  - type: Normalize
+  type: Dataset
+val_dataset:
+  dataset_root: data/baidu
+  mode: val
+  num_classes: 2
+  transforms:
+  - type: Normalize
+  type: Dataset
+  val_path: data/baidu/val.txt
+------------------------------------------------
+W0514 23:18:46.668735 485569 device_context.cc:447] Please NOTE: device: 0, GPU Compute Capability: 7.5, Driver API Version: 11.4, Runtime API Version: 11.1
+W0514 23:18:46.668772 485569 device_context.cc:465] device: 0, cuDNN Version: 8.1.
+2022-05-14 23:18:49 [INFO]	Loading pretrained model from https://bj.bcebos.com/paddleseg/dygraph/PP_STDCNet1.tar.gz
+Connecting to https://bj.bcebos.com/paddleseg/dygraph/PP_STDCNet1.tar.gz
+Downloading PP_STDCNet1.tar.gz
+[                                                  ] 0.01%[=                                                 ] 2.95%[===                                               ] 6.21%[====                                              ] 9.48%[======                                            ] 12.74%[========                                          ] 16.00%[=========                                         ] 19.27%[===========                                       ] 22.53%[============                                      ] 25.79%[==============                                    ] 29.06%[================                                  ] 32.32%[=================                                 ] 35.58%[===================                               ] 38.85%[=====================                             ] 42.11%[======================                            ] 45.37%[========================                          ] 48.64%[=========================                         ] 51.90%[===========================                       ] 55.16%[=============================                     ] 58.43%[==============================                    ] 61.69%[================================                  ] 64.95%[==================================                ] 68.22%[===================================               ] 71.48%[=====================================             ] 74.74%[=======================================           ] 78.01%[========================================          ] 81.27%[==========================================        ] 84.54%[===========================================       ] 87.80%[=============================================     ] 91.06%[===============================================   ] 94.33%[================================================  ] 97.59%[==================================================] 100.00%
+Uncompress PP_STDCNet1.tar.gz
+[                                                  ] 0.00%[=========================                         ] 50.00%[==================================================] 100.00%
+2022-05-14 23:18:53 [INFO]	There are 295/295 variables loaded into STDCNet.
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/home/noerrors/.conda/envs/pad/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/noerrors/.conda/envs/pad/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/noerrors/.conda/envs/pad/lib/python3.8/site-packages/paddle/fluid/dataloader/dataloader_iter.py", line 212, in _thread_loop
+    batch = self._dataset_fetcher.fetch(indices,
+  File "/home/noerrors/.conda/envs/pad/lib/python3.8/site-packages/paddle/fluid/dataloader/fetcher.py", line 121, in fetch
+    data.append(self.dataset[idx])
+  File "/media/noerrors/2ebff7c9-6843-41c4-9307-63072b7eab51/lqp/baidu_competition/PaddleSeg-release-2.5/paddleseg/datasets/dataset.py", line 153, in __getitem__
+    im, label = self.transforms(im=image_path, label=label_path)
+  File "/media/noerrors/2ebff7c9-6843-41c4-9307-63072b7eab51/lqp/baidu_competition/PaddleSeg-release-2.5/paddleseg/transforms/transforms.py", line 57, in __call__
+    im = cv2.imread(im).astype('float32')
+AttributeError: 'NoneType' object has no attribute 'astype'
+
+
+--------------------------------------
+C++ Traceback (most recent call last):
+--------------------------------------
+0   paddle::pybind::MultiDeviceFeedReader<paddle::operators::reader::LoDTensorBlockingQueue>::CheckNextStatus()
+1   paddle::pybind::MultiDeviceFeedReader<paddle::operators::reader::LoDTensorBlockingQueue>::WaitFutures(std::__exception_ptr::exception_ptr*)
+
+----------------------
+Error Message Summary:
+----------------------
+FatalError: `Termination signal` is detected by the operating system.
+  [TimeInfo: *** Aborted at 1652541597 (unix time) try "date -d @1652541597" if you are using GNU date ***]
+  [SignalInfo: *** SIGTERM (@0x3e800076868) received by PID 485569 (TID 0x7f5c0d486740) from PID 485480 ***]
+
